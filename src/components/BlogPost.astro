@@ -3,3 +3,23 @@ const {title , url} = Astro.props;
 ---
 
 <a href={url}>{title}</a>
+
+<style>
+    a {
+      color: #00539F;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.15em;
+      transition: color 0.2s ease;
+      display: inline-block;
+      margin: 0.25em;
+      padding: 0.5em 1em;
+      border: dotted 1px #a1a1a1;
+      border-radius: .5em;
+      background-color: #F8FCFD;
+    }
+
+    a:hover {
+      color: #0077B6;
+    }
+  </style>

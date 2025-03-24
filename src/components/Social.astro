@@ -7,9 +7,22 @@ const {plataform, username} = Astro.props;
 
 <style>
     a {
-    padding: 0.5rem 1rem;
-    color: white;
-    background-color: #4c1d95;
-    text-decoration: none;
-  }
-</style>
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.15em;
+        transition: color 0.2s ease;
+        display: inline-block;
+        margin: 0.25em;
+        padding: 0.5em 1em;
+        border: dotted 1px #a1a1a1;
+        border-radius: .5em;
+        color: #fff;
+        background-color: #00539F;
+    }
+    
+    a:hover {
+        color: #00539F;
+        background-color: #F8FCFD;
+      
+    }
+  </style>

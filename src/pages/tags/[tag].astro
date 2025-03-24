@@ -25,3 +25,16 @@ const { posts } = Astro.props;
     {posts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
   </ul>
 </BaseLayout>
+
+<style>
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+  </style>
