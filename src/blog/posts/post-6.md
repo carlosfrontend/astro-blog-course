@@ -9,4 +9,4 @@ pubDate: 2022-08-08
 tags: ["astro", "blogging"]
 ---
 
-This is my sixth blog post
+This is my sixth blog post for to check the complete project
